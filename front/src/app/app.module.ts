@@ -8,13 +8,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RegistrarComponent } from './registrar/registrar.component';
 import { GestionarPacientesComponent } from './gestionar-pacientes/gestionar-pacientes.component';
 import { ListarPacientesComponent } from './listar-pacientes/listar-pacientes.component';
+import { EditarComponent } from './editar/editar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrarComponent,
     GestionarPacientesComponent,
-    ListarPacientesComponent
+    ListarPacientesComponent,
+    EditarComponent
   ],
   imports: [
     BrowserModule,

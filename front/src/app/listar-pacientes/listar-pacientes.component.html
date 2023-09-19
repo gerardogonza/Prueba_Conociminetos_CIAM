@@ -1,1 +1,28 @@
-<p>listar-pacientes works!</p>
+<div class="container">
+    <h2>Listado de Pacientes</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>DPI</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Fecha de Nacimiento</th>
+          <th>Dirección</th>
+          <th>Número de Teléfono</th>
+          <th>Correo Electrónico</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let paciente of pacientes">
+          <td>{{ paciente.dpi }}</td>
+          <td>{{ paciente.nombres }}</td>
+          <td>{{ paciente.apellidos }}</td>
+          <td>{{ paciente.fecha_nacimiento }}</td>
+          <td>{{ paciente.direccion }}</td>
+          <td>{{ paciente.numero_telefono }}</td>
+          <td>{{ paciente.correo }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
