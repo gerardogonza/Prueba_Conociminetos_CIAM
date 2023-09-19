@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCE4E503-F301-3AC1-D5FA-28A49453644E" name="MUNICIPIO">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>3D2AB574-383F-C79C-9DFB-AA6E4469AF57</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="990FBCF3-7670-ED3C-0288-EB6B80E5183D">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>1AFD2401-BCF2-BC55-F117-95643C3AAD29</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO" id="D6D94B88-A6BF-5100-919E-3BDC44278460">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>4F9043DE-B5C2-78AA-3EE1-8E85E7DB162B</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DEPARTAMENTO" id="34E733EA-D5F9-5E29-AAAA-B18A91E910BD">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>8A6C45DB-16BB-96C6-F839-EAE8E3226558</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID" id="0DED7B9E-62BF-210F-A563-2F05B9DD1AD5">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>D8FD62A9-1EC0-A736-674A-044F85E7BD34</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16D666AD-78F9-1E06-A049-F6FB2F54B208" referredColumn="C3AA8ADD-7860-680C-0855-DFE7A9378EA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DAE8FE2-2F6E-BF07-A607-EBFFC585868F" name="MUNICIPIO_PK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>6731704C-FB43-69CD-B910-E552DD36A92E</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="990FBCF3-7670-ED3C-0288-EB6B80E5183D"/>
+<colUsage columnID="0DED7B9E-62BF-210F-A563-2F05B9DD1AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9543F640-8ABA-0C2F-6263-799C0BACD941" name="MUNICIPIO_DEPARTAMENTO_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>1DD52685-6123-BAB1-4DAD-37FC1F8A0E72</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DED7B9E-62BF-210F-A563-2F05B9DD1AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
