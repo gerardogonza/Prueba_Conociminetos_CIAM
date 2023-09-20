@@ -23,10 +23,10 @@
       </div>
       <div class="form-group">
         <label for="tipo_documento">Municipio:</label>
-        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.municipio" required class="form-select">
-          <option value="1">Guatemala</option>
-          <option value="2">Mixco</option>
-          <option value="3">Villa Nueva</option>
+        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.municipio.id" required class="form-select">
+          <option [value]="1" [selected]="paciente.municipio.id === 1">Guatemala</option>
+          <option [value]="2" [selected]="paciente.municipio.id === 2">Mixco</option>
+          <option [value]="3" [selected]="paciente.municipio.id === 3">Villa Nueva</option>
         </select>
       </div>
       <div class="form-group">
@@ -38,27 +38,27 @@
         <input type="email" id="correo" name="correo" [(ngModel)]="paciente.correo" required>
       </div>
       <div class="form-group">
-        <label for="tipo_documento">Tipo Documento:</label>
-        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.tipo_documento" required class="form-select">
-          <option value="1">Licencia</option>
-          <option value="2">DPI</option>
-          <option value="3">Pasaporte</option>
+        <label for="tipo_documento">Tipo de Documento:</label>
+        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.tipoDocumento.id" required class="form-select">
+          <option [value]="1" [selected]="paciente.tipoDocumento.id === 1">Licencia</option>
+          <option [value]="2" [selected]="paciente.tipoDocumento.id === 2">DPI</option>
+          <option [value]="3" [selected]="paciente.tipoDocumento.id === 3">Pasaporte</option>
         </select>
-      </div>
+      </div>      
       <div class="form-group">
-        <label for="tipo_documento">Genero:</label>
-        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.genero" required class="form-select" >
-          <option value="1">Masculino</option>
-          <option value="2">Femenino</option>
+        <label for="tipo_genero">Género:</label>
+        <select name="tipoGenero" id="tipoGenero" [(ngModel)]="paciente.genero.id" required class="form-select">
+          <option [value]="1" [selected]="paciente.genero.id === 1">Masculino</option>
+          <option [value]="2" [selected]="paciente.genero.id === 2">Femenino</option>
         </select>
-      </div>
+      </div>      
       <div class="form-group">
-        <label for="tipo_documento">Tipo Paciente:</label>
-        <select name="tipoDocumento" id="tipoDocumento" [(ngModel)]="paciente.tipo_paciente" required class="form-select">
-          <option value="1">VIP</option>
-          <option value="2">Estandar</option>
+        <label for="tipo_paciente">Tipo de Paciente:</label>
+        <select name="tipoPaciente" id="tipoPaciente" [(ngModel)]="paciente.tipopaciente.id" required class="form-select">
+          <option [value]="1" [selected]="paciente.tipopaciente.id === 1">VIP</option>
+          <option [value]="2" [selected]="paciente.tipopaciente.id === 2">Estandar</option>
         </select>
-      </div>
+      </div>      
       <button type="submit">Registrar Paciente</button>
     </form>
   </div>

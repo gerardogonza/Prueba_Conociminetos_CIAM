@@ -10,17 +10,27 @@
           <th>Dirección</th>
           <th>Número de Teléfono</th>
           <th>Correo Electrónico</th>
+          <th>Municipio</th>
+          <th>Genero</th>
+          <th>Tipo Documento</th>
+          <th>Tipo Paciente</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let paciente of pacientes">
-          <td>{{ paciente.dpi }}</td>
-          <td>{{ paciente.nombres }}</td>
-          <td>{{ paciente.apellidos }}</td>
-          <td>{{ paciente.fecha_nacimiento }}</td>
-          <td>{{ paciente.direccion }}</td>
-          <td>{{ paciente.numero_telefono }}</td>
-          <td>{{ paciente.correo }}</td>
+          <ng-container *ngIf="paciente.isActive === 1">
+            <td>{{ paciente.dpi }}</td>
+            <td>{{ paciente.nombres }}</td>
+            <td>{{ paciente.apellidos }}</td>
+            <td>{{ paciente.fecha_nacimiento }}</td>
+            <td>{{ paciente.direccion }}</td>
+            <td>{{ paciente.numero_telefono }}</td>
+            <td>{{ paciente.correo }}</td>
+            <td>{{ paciente.municipio.municipio }}</td>
+            <td>{{ paciente.genero.genero }}</td>
+            <td>{{ paciente.tipoDocumento.tipo}}</td>
+            <td>{{ paciente.tipopaciente.tipo_paciente }}</td>
+          </ng-container>
         </tr>
       </tbody>
     </table>
