@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA168134-F8DD-548A-0DA8-3F39231D7C3F" name="PACIENTE">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>544F4B9E-24F2-1A68-E577-9AD47F81E570</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DPI" id="A00EEF20-12C7-357F-979B-CD3B4026032A">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>5B849675-C37C-6856-982E-AF070584C8A7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="3F6D589B-2FC2-7561-D362-85505EC7CDED">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>8FD932BF-705F-E656-225D-6E2980F1769F</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="D3F27271-79CF-9210-6682-EC013C26B612">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>682B5342-34D9-58B9-4107-C3DE51989F98</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_DPI" id="84926EB3-BE8B-8E3A-EECD-41BC80302A3B">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>81C4CE77-E40A-5E78-4AF8-49996597A78F</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="46F28E37-B020-0EAE-5FC8-AF1308CD7D0E">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>E2ACCD14-B55E-CF90-5488-7D95B8E242F0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GENERO" id="4D308133-0DCA-D070-0CF9-4F1A533B3679">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>E7E8506C-A9DC-5ACD-8EFB-36A5EA0B48C0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="E4DB19B4-FEAB-4692-1E82-F94CFF54CA3E">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>02838129-A783-357D-1CD3-B53025E4ED01</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MUNICIPIO" id="90A28A5B-3A47-8D3B-C11B-756306FBD107">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>5086FD77-DA70-B399-B992-27052538687B</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_TELEFONO" id="78E473A6-8919-14E6-4CEA-9D56809500BC">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>1759BA77-4C97-A64A-E355-B61B5D805156</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="AA200EFD-A80C-4374-E2A2-1EC2B2A71B00">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>4D3DD98A-087C-38E7-BE7C-964929C69FA0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_PACIENTE" id="0FEE974A-B6CB-D6C2-F21C-B058E9FA9F30">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>FCBB353B-6FF1-C4F7-912D-B09CC4A43B37</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DPI_ID" id="FC7327A1-C3FD-C0CF-E1E7-D325C1FAC8B7">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>8F482084-CBA0-BD6C-3568-B2E0230705F8</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A63E6815-7930-6BCD-6F80-DBBABE4FB30D" referredColumn="875946CE-41DB-0039-5E29-726E00A1313C"/>
+</associations>
+</Column>
+<Column name="GENERO_ID" id="DFE31562-B780-F678-2BBA-30F56CDE2BAD">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>98205C88-B74C-758C-34EE-3272AF6D39F5</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4370C31-4324-8ABA-2BEF-4845EF704B5B" referredColumn="081A09CB-F537-487D-F5A1-7F4B881BA8F1"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_PACIENTE_ID" id="749A17AE-FAEC-61BA-EA2C-EBFFFB2CB002">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>632CEDBC-4F91-6006-B876-BB134247E9DF</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BAA839C-C4E2-DFFF-6E28-B4497AC7154C" referredColumn="21270A99-1CD9-1629-E36A-4D768121280B"/>
+</associations>
+</Column>
+<Column name="MUNICIPIO_ID" id="BAA4D612-D34D-AFE5-893B-AD7CE949DBE4">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>9CCA5B00-69D2-F3BD-EE1C-EB3D74F308B0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C86884D8-70D3-FAA0-B87D-8BBFED867E5E" referredColumn="990FBCF3-7670-ED3C-0288-EB6B80E5183D"/>
+</associations>
+</Column>
+<Column name="MUNICIPIO_ID1" id="8818406E-81AA-ED63-2292-122B663EC89F">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>DB5D47CC-EF7B-86F4-7367-8997C7752108</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C86884D8-70D3-FAA0-B87D-8BBFED867E5E" referredColumn="0DED7B9E-62BF-210F-A563-2F05B9DD1AD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50A43E32-4B29-4AA1-A2E2-7C501F0E26EF" name="PACIENTE_PK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>272A1D36-E843-8961-D2D8-8761271D7524</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A00EEF20-12C7-357F-979B-CD3B4026032A"/>
+<colUsage columnID="FC7327A1-C3FD-C0CF-E1E7-D325C1FAC8B7"/>
+<colUsage columnID="DFE31562-B780-F678-2BBA-30F56CDE2BAD"/>
+<colUsage columnID="749A17AE-FAEC-61BA-EA2C-EBFFFB2CB002"/>
+<colUsage columnID="BAA4D612-D34D-AFE5-893B-AD7CE949DBE4"/>
+<colUsage columnID="8818406E-81AA-ED63-2292-122B663EC89F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23246AEF-14F9-2853-BFC8-B064BCD8AF07" name="PACIENTE_TIPO_DPI_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>FD54534C-348A-3B3B-AE2F-E74D7ED126E7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7327A1-C3FD-C0CF-E1E7-D325C1FAC8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CA6B936-37D8-2506-2FCF-ACA99EBB08B4" name="PACIENTE_GENERO_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>4C729CB4-5FB0-8A0A-BCE3-DC144BFAEDD0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE31562-B780-F678-2BBA-30F56CDE2BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B9B35BB-8B9E-7630-6FC2-6F4AEC77974F" name="PACIENTE_ID_TIPO_PACIENTE_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>BC86B2DE-2DA5-0A50-B213-526BEDA8C5EF</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="749A17AE-FAEC-61BA-EA2C-EBFFFB2CB002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DE3016D-90AC-986E-6E86-2837BF258EF8" name="PACIENTE_MUNICIPIO_FK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:53 UTC</createdTime>
+<generatorID>729807DC-5955-CB6B-386C-EE192078B6D7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA4D612-D34D-AFE5-893B-AD7CE949DBE4"/>
+<colUsage columnID="8818406E-81AA-ED63-2292-122B663EC89F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

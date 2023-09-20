@@ -1,0 +1,242 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="544F4B9E-24F2-1A68-E577-9AD47F81E570" name="PACIENTE">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:33:28 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DPI" id="5B849675-C37C-6856-982E-AF070584C8A7">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:34:26 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="8FD932BF-705F-E656-225D-6E2980F1769F">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:33:48 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="682B5342-34D9-58B9-4107-C3DE51989F98">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:35:38 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPO_DPI" id="81C4CE77-E40A-5E78-4AF8-49996597A78F">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:36:32 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="E2ACCD14-B55E-CF90-5488-7D95B8E242F0">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:36:59 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_GENERO" id="E7E8506C-A9DC-5ACD-8EFB-36A5EA0B48C0">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:37:36 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="02838129-A783-357D-1CD3-B53025E4ED01">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:38:04 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MUNICIPIO" id="5086FD77-DA70-B399-B992-27052538687B">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:38:56 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_TELEFONO" id="1759BA77-4C97-A64A-E355-B61B5D805156">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:41:12 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="4D3DD98A-087C-38E7-BE7C-964929C69FA0">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:42:18 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPO_PACIENTE" id="FCBB353B-6FF1-C4F7-912D-B09CC4A43B37">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:42:34 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="8F482084-CBA0-BD6C-3568-B2E0230705F8">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:57:08 UTC</createdTime>
+<generatorID>FD54534C-348A-3B3B-AE2F-E74D7ED126E7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<referedAttribute>90939FE2-EDCF-629A-C72E-335CFCF73F33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="98205C88-B74C-758C-34EE-3272AF6D39F5">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:57:12 UTC</createdTime>
+<generatorID>4C729CB4-5FB0-8A0A-BCE3-DC144BFAEDD0</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<referedAttribute>87CDA02B-D495-5D74-949E-080F55D244A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="632CEDBC-4F91-6006-B876-BB134247E9DF">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:57:16 UTC</createdTime>
+<generatorID>BC86B2DE-2DA5-0A50-B213-526BEDA8C5EF</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<referedAttribute>5E0A8C08-10F0-5331-DBDF-A03040A05BD0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="9CCA5B00-69D2-F3BD-EE1C-EB3D74F308B0">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:03 UTC</createdTime>
+<generatorID>729807DC-5955-CB6B-386C-EE192078B6D7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<referedAttribute>1AFD2401-BCF2-BC55-F117-95643C3AAD29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID11" id="DB5D47CC-EF7B-86F4-7367-8997C7752108">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 05:00:03 UTC</createdTime>
+<generatorID>729807DC-5955-CB6B-386C-EE192078B6D7</generatorID>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<referedAttribute>D8FD62A9-1EC0-A736-674A-044F85E7BD34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="272A1D36-E843-8961-D2D8-8761271D7524" name="USER PK">
+<createdBy>jerry</createdBy>
+<createdTime>2023-09-19 04:35:35 UTC</createdTime>
+<ownerDesignName>Data_Modeler_Paciente</ownerDesignName>
+<engineerTo>
+<item key="95D725EF-8186-D48C-0E18-6D9DA4229CA0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B849675-C37C-6856-982E-AF070584C8A7</attributeRef>
+<attributeRef>8F482084-CBA0-BD6C-3568-B2E0230705F8</attributeRef>
+<attributeRef>98205C88-B74C-758C-34EE-3272AF6D39F5</attributeRef>
+<attributeRef>632CEDBC-4F91-6006-B876-BB134247E9DF</attributeRef>
+<attributeRef>9CCA5B00-69D2-F3BD-EE1C-EB3D74F308B0</attributeRef>
+<attributeRef>DB5D47CC-EF7B-86F4-7367-8997C7752108</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
